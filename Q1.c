@@ -1,4 +1,4 @@
-//  Q.1.Write a program to declare an array of 5 strings
+// Q.1.Write a program to declare an array of 5 strings
 // (each for a student’s name) and display them one by one.
 
 #include <stdio.h>

@@ -1,5 +1,4 @@
 #include <stdio.h>
-// Function prototype
 int sumOfDigits(int n);
 int main() {
     int num, result;
@@ -9,10 +8,9 @@ int main() {
     printf("Sum of digits of %d is %d\n", num, result);
     return 0;
 }
-// Recursive function definition
 int sumOfDigits(int n) {
     if (n == 0)
-        return 0;   // base case
+        return 0;   
     else
-        return (n % 10) + sumOfDigits(n / 10);  // recursive step
+        return (n % 10) + sumOfDigits(n / 10); 
 }
