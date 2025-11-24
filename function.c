@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+// #include<string.h>
 // void printHello();
 // void hello();
 
@@ -47,84 +47,15 @@
 
 
 
-
-void rajasthan(char name[]);
-void uttarpradesh();
-void gujrat();
-void haryana();
-void odisha();
-void tamilnadu();
-void westbengal();
-void punjab();
-void Namaste();
+int sum (int a, int b);
 
 int main() {
-char name[50];
-    char state[50];    
-    printf("\nEnter the your state name :");
-    scanf("%s",&state);
+    int a, b;
+    printf("enter first nuber : ");
+    scanf("%d",&a);
+    printf("enter second number : ");
+    scanf("%d", &b);
 
-    if (strcmp(state,"rajasthan") == 0) {
-        rajasthan(name);
-    }
-    else if (strcmp(state,"uttarpradesh") == 0) {
-        uttarpradesh();
-    }
-    else if ( strcmp(state,"uttarpradesh") == 0) {
-        gujrat();
-    }
-    else if ( strcmp(state,"uttarpradesh") == 0) {
-        haryana();
-    }
-    else if ( strcmp(state,"uttarpradesh") == 0) {
-        odisha();
-    }
-    else if ( strcmp(state,"uttarpradesh") == 0) {
-        tamilnadu();
-    }
-    else if ( strcmp(state,"uttarpradesh") == 0) {
-        westbengal();
-    }
-    else if ( strcmp(state,"uttarpradesh") == 0) {
-        punjab();
-    }
-    else {
-        Namaste();
-    }
+    sum 
 }
-
-void username(char name[]){
-
-    printf("Enter your Name :");
-    scanf("%s", name);
-}
-
-void rajasthan(char name[]) {
-    
-    printf("Khamma Ghani, %s\n", name);
-}
-void uttarpradesh() {
-    printf("Radhe Radhe\n");
-}
-void gujrat() {
-    printf("Jai shri Krishna\n");
-}
-void haryana() {
-    printf("Ram Ram Ji\n");
-}
-void odisha() {
-    printf("Jai Jagannath\n");
-}
-void tamilnadu() {
-    printf("Vanakkam\n");
-}
-void westbengal() {
-    printf("Nomoshkar\n");
-}
-void punjab() {
-    printf("Sat Shri Akal\n");
-}
-void Namaste() {
-    printf("Namaste\n");
-}
-
+ 
