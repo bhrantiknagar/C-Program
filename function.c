@@ -129,14 +129,31 @@
 // float convertTemp(float celsius);
 
 // int main() {
-//     float far = convertTemp(55);
+//     float far = convertTemp(50);
 //     printf("far : %f", far);
 //     return 0;
 // }
 
 // float convertTemp(float celsius) {
-//     float far = celsius * (9/5) + 32;
+//     float far = celsius * (9.0/5.0) + 32;
 //     return far;
+// }
+
+
+
+// int calcPercentage(int C, int math, int PC );
+
+// int main() {
+//     int C = 98;
+//     int math = 78;
+//     int PC = 99;
+
+//     printf("percentage is : %d", calcPercentage(C, math, PC));
+//     return 0;
+// }
+
+// int calcPercentage(int C, int math, int PC) {
+//     return ((C + math + PC) / 3);
 // }
 
 
