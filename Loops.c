@@ -92,6 +92,66 @@
 
 
 
+// break in loop 
+// int main() {
+//     for(int i=1; i<=5; i++) {
+//         if(i == 3) {
+//             break;
+//         }
+//         printf("%d\n", i);
+//     }
+    
+//     printf("end");
+
+//     return 0;
+// }
+
+
+
+// int main() {
+//     int n;
+//     do {
+//         printf("enter number :");
+//         scanf("%d", &n);
+//         printf("%d\n", n);
+
+//         if(n % 7 == 0) {
+//             break;
+//         }
+//     } while(1);
+//     printf("thank you");
+
+//     return 0;
+// }
+
+
+// continue ( skip )
+// int main() {
+//     for(int i=1; i<=5; i++) {
+//         if(i == 3) {
+//             continue;
+//         }
+//         printf("%d \n", i);
+//     }
+
+//     return 0;
+// }
+
+
+
+// int main() {
+//     for(int i=5; i<=50; i++) {
+//         if(i % 2 != 0) {
+//             printf("%d\n", i);
+//         }
+//     }
+
+//     return 0;
+// }
+
+
+
 int main() {
     
+    return 0;
 }
