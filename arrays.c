@@ -36,3 +36,41 @@
 
 
 
+// int main() {
+//     int aadhar[5];
+
+//     int *ptr = &aadhar[0];
+//     for(int i=0; i<5; i++) {
+//         printf("%d index : ", i);
+//         scanf("%d", &aadhar[i]);
+//     }
+
+//     for(int i=0; i<5; i++) {
+//         printf("%d index = %d\n", i, aadhar[i]);
+//     }
+//     return 0;
+// }
+
+
+
+// void printNumbers(int*,int);
+
+// int main() {
+//     int arr[] ={1, 3, 3, 5, 6, 6};
+//     printNumbers(arr, 6);
+//     return 0;
+// }
+
+// void printNumbers(int *arr, int n) {
+//     for(int i=0; i<n; i++) {
+//         printf("%d \t", arr[i]);
+//     }
+//     printf("\n");
+// }
+
+
+
+int main() {
+    
+    return 0;
+}
