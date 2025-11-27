@@ -70,7 +70,42 @@
 
 
 
-int main() {
+// 2D array
+// int main() {
     
-    return 0;
-}
+//     int marks[2][3];
+//     marks[0][0] = 79;
+//     marks[0][1] = 45;
+//     marks[0][2] = 38;
+
+//     marks[1][0] = 75;
+//     marks[1][1] = 64;
+//     marks[1][2] = 94;
+
+//     printf("%d", marks[0][2]);
+
+//     return 0;
+// }
+
+
+// count odd in array
+// int countOdd(int arr[], int n);
+
+// int main() {
+//     int arr[] = {1, 3, 5, 4, 5,};
+//     printf("%d", countOdd(arr, 5));
+//     return 0;
+// }
+
+// int countOdd(int arr[], int n) {
+//     int count = 0;
+//     for(int i=0; i<n; i++) {
+//         if(arr[i] % 2 != 0) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+
+
